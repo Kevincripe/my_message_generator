@@ -18,7 +18,7 @@ const quotes = [
 var randomNumber = Math.floor(Math.random() * (quotes.length));
 
 function newQuote() {
-   console.log(quotes[randomNumber]);  
+    console.log(quotes[randomNumber]);  
 }
 
-console.log(newQuote());
+return(newQuote());
