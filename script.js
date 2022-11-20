@@ -1,6 +1,6 @@
 //This is a random Quote generator from the movie Idiocracy.
 
-var quotes = [
+const quotes = [
     "If you have one bucket that contains 2 gallons and another bucket that contains 7 gallons, how many buckets do you have?",
     "Go away, Im BAITIN! - Frito",
     "A pimps love is very different from that of a square. - Collins",
@@ -15,7 +15,10 @@ var quotes = [
 
 ]
 
+var randomNumber = Math.floor(Math.random() * (quotes.length));
 
 function newQuote() {
-    var randomNumber = Math.floor(Math.random() * (quotes.length));
+   return randomNumber;  
 }
+
+console.log(newQuote());
